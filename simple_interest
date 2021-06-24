@@ -1,0 +1,13 @@
+package pack1;
+
+public class Simple_Interest {
+
+	public static void main(String[] args) {
+		int p = 15000;
+		int r = 5;
+		int n = 3;
+		int si = (p*n*r)/100;
+		System.out.println("Simple Interest = "+si);
+	}
+
+}
