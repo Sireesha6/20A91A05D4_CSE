@@ -1,0 +1,13 @@
+package Typecasting;
+
+public class Explicit_SI3 {
+
+	public static void main(String[] args) {
+		float f = 10.6f;
+		int i = (int)f;			
+		System.out.println("int   = "+i);
+		System.out.println("float  = "+f);
+
+	}
+
+}
