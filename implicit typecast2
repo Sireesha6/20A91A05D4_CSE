@@ -1,0 +1,13 @@
+package Typecasting;
+
+public class SI_Ex2 {
+
+	public static void main(String[] args) {
+		int i = 50;
+		long l = i;
+		System.out.println("int   = "+i);
+		System.out.println("long  = "+l);
+
+	}
+
+}
