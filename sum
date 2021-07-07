@@ -1,0 +1,15 @@
+package Dynamic_input;
+import java.util.*;
+public class Sum {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 2 numbers: ");
+		int a = sc.nextInt(); // 20
+		int b = sc.nextInt(); // 40
+		int c = a+b; // 60
+System.out.println("sum = " + c);
+
+	}
+
+}
