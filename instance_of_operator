@@ -1,0 +1,12 @@
+package operators;
+
+public class Instance_of_operator {
+
+	public static void main(String[] args) {
+		String n= "siree";
+		boolean i = n instanceof String;
+System.out.println(i);
+
+	}
+
+}
