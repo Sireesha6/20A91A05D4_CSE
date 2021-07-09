@@ -1,0 +1,18 @@
+package operators;
+
+public class Bitwise_Or {
+	public static void main(String[] args) {
+		int a =10;
+		int b = 5;
+		int c = 20;
+		System.out.println(a > b | a < c); // t
+		System.out.println(a); //10
+		System.out.println(a > b || a++ < c); // t
+		System.out.println(a); //10
+		System.out.println(a > b | a++ < c); // t
+		System.out.println(a); //12
+	}
+		
+	
+
+}
