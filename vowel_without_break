@@ -1,0 +1,21 @@
+package conditional_statements;
+import java.util.*;
+public class Vowel_withoutbreak {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter char:");
+		String a= sc.next(); 
+		switch(a)
+		{
+		case "a": 
+		case "e": 
+		case "i": 
+		case "o": 
+		case "u": System.out.println("vowel"); break;
+		default : System.out.println("Not Vowel");
+		}
+
+	}
+
+}
