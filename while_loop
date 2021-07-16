@@ -1,0 +1,16 @@
+package loop_statements;
+
+public class While_loop_display_num {
+
+	public static void main(String[] args) {
+		int i=1;
+		while(i<=10) // 11 <= 10 -> f
+		{
+			 System.out.println(i);
+			 i++; //11
+		}
+		System.out.println("end of loop");
+
+	}
+
+}
