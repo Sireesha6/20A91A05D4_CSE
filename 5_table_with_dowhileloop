@@ -1,0 +1,18 @@
+package loop_statements;
+
+public class Do_while_5_table {
+
+	public static void main(String[] args) {
+		int n = 5, i=1;
+		do
+		{
+			 System.out.println(n + " X "  + i +" = "+ (n*i));
+			//int t = n*i;
+			//System.out.println(t);
+			i++;  // 2
+		}while(i<=10); // 2 <= 10 -> t
+		System.out.println("end of loop");
+
+	}
+
+}
